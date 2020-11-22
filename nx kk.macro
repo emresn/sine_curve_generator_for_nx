@@ -1,0 +1,670 @@
+﻿NX 11.0.0.33
+Macro File: kk.macro
+Macro Version 7.50
+Macro List Language and Codeset: english 22
+Created by Emre on Sat Apr 18 03:10:57 2020
+Part Name Display Style: $FILENAME
+Selection Parameters 1 2 0.229167 1
+Display Parameters 1.000000 16.468750 8.864583 -1.000000 -0.538267 1.000000 0.538267
+*****************
+RESET
+MENU, 0, UG_INSERT_DIRECT_SKETCH UG_GATEWAY_MAIN_MENUBAR <rbn_modeling_home.rtb->rbn_direct_sketch_inactive.grb> ## ! 
+ASK_ITEM 1900544 (1 OPTT 0) = 0 0 ! Dynamic
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 2490370 (1 TOOL 0) = 4  ! Plane, X-axis, Point
+ASK_ITEM 2490370 (1 TOOL 0) = 3  ! Plane, X-axis, Point
+ASK_ITEM 2490370 (1 TOOL 0) = 2  ! Plane, X-axis, Point
+ASK_ITEM 2490370 (1 TOOL 0) = 1  ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 0 ! Plane, X-axis, Point
+ASK_ITEM 3080192 (1 OPTT 0) = 0 0 ! Inferred
+ASK_ITEM 3080192 (1 OPTT 0) = 0 1 ! Inferred
+ASK_ITEM 3080192 (1 OPTT 0) = 0 1 ! Inferred
+ASK_ITEM 3080192 (1 OPTT 0) = 0 1 ! Inferred
+ASK_ITEM 3080192 (1 OPTT 0) = 0 1 ! Inferred
+ASK_ITEM 3080192 (1 OPTT 0) = 0 0 ! Inferred
+ASK_ITEM 5046272 (1 OPTT 0) = 0 0 ! Inferred Vector
+ASK_ITEM 5046272 (1 OPTT 0) = 0 1 ! Inferred Vector
+ASK_ITEM 5046272 (1 OPTT 0) = 0 1 ! Inferred Vector
+ASK_ITEM 5046272 (1 OPTT 0) = 0 0 ! Inferred Vector
+ASK_ITEM 7208960 (1 OPTT 0) = 0 0 ! Inferred Point
+ASK_ITEM 7208960 (1 OPTT 0) = 0 1 ! Inferred Point
+ASK_ITEM 7208960 (1 OPTT 0) = 0 1 ! Inferred Point
+ASK_ITEM 7208960 (1 OPTT 0) = 0 0 ! Inferred Point
+ASK_ITEM 7208960 (1 OPTT 0) = 0 0 ! Inferred Point
+ASK_ITEM 7208960 (1 OPTT 0) = 0 0 ! Inferred Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 0 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 10616832 (1 OPTT 0) = 0 0 ! Inferred Point
+ASK_ITEM 10616832 (1 OPTT 0) = 0 1 ! Inferred Point
+ASK_ITEM 10616832 (1 OPTT 0) = 0 1 ! Inferred Point
+ASK_ITEM 10616832 (1 OPTT 0) = 0 0 ! Inferred Point
+ASK_ITEM 10616832 (1 OPTT 0) = 0 0 ! Inferred Point
+ASK_ITEM 10616832 (1 OPTT 0) = 0 0 ! Inferred Point
+ASK_ITEM 13828096 (1 OPTT 0) = 0 0 ! Inferred Vector
+ASK_ITEM 13828096 (1 OPTT 0) = 0 1 ! Inferred Vector
+ASK_ITEM 13828096 (1 OPTT 0) = 0 1 ! Inferred Vector
+ASK_ITEM 13828096 (1 OPTT 0) = 0 0 ! Inferred Vector
+ASK_ITEM 17039360 (1 BOOL 0) = 1  ! Show Previous State
+ASK_ITEM 17039360 (1 BOOL 0) = 0  ! Show Previous State
+ASK_ITEM 17563648 (1 BOOL 0) = 1  ! Show All Datum Axes
+EVENT FOCUS_IN 0 0, 262144, 0, 0, 0! On Plane
+ASK_ITEM 262144 (1 OPTM 0) = 0  ! On Plane
+DIALOG_BEGIN "Create Sketch" 0 ! DA2
+BEG_ITEM 262144 (1 OPTM 0) = 0  ! On Plane
+BEG_ITEM 262146 (1 TOOL 0) = 0  ! On Plane
+BEG_ITEM 1245184 (1 OPTM 0) = 0  ! Inferred
+BEG_ITEM 1441792 (1 OPTM 0) = 0  ! Horizontal
+BEG_ITEM 1638400 (1 OPTM 0) = 0  ! Specify Point
+BEG_ITEM 1900544 (1 OPTT 0) = 1 1 ! Inferred
+BEG_ITEM 2490368 (1 OPTM 0) = 11  ! Plane, X-axis, Point
+BEG_ITEM 2490370 (1 TOOL 0) = 1  ! Plane, X-axis, Point
+BEG_ITEM 3080192 (1 OPTT 0) = 0 0 ! Inferred
+BEG_ITEM 3866624 (1 OPTM 0) = 0  ! Inferred
+BEG_ITEM 3866626 (0 TOOL 0) = 0  ! Inferred
+BEG_ITEM 4784128 (1 OPTM 0) = 0  ! Horizontal
+BEG_ITEM 5046272 (1 OPTT 0) = 0 0 ! Inferred Vector
+BEG_ITEM 6029312 (1 OPTM 0) = 0  ! Inferred Vector
+BEG_ITEM 6029314 (0 TOOL 0) = 0  ! Inferred Vector
+BEG_ITEM 6946816 (1 OPTM 0) = 0  ! Specify Point
+BEG_ITEM 7208960 (1 OPTT 0) = 0 0 ! Inferred Point
+BEG_ITEM 7798784 (1 OPTM 0) = 0  ! Inferred Point
+BEG_ITEM 7798786 (0 TOOL 0) = 0  ! Inferred Point
+BEG_ITEM 8781824 (1 BOOL 0) = 0  ! Curve
+BEG_ITEM 10027008 (1 OPTM 0) = 1  ! % Arc Length
+BEG_ITEM 10027010 (1 TOOL 0) = 1  ! % Arc Length
+BEG_ITEM 10616832 (1 OPTT 0) = 0 0 ! Inferred Point
+BEG_ITEM 11206656 (1 OPTM 0) = 0  ! Inferred Point
+BEG_ITEM 11206658 (1 TOOL 0) = 0  ! Inferred Point
+BEG_ITEM 11927554 (1 STRN 0) = "0"  ! % Arc Length
+BEG_ITEM 12976128 (1 OPTM 0) = 0  ! Normal to Path
+BEG_ITEM 12976130 (1 TOOL 0) = 0  ! Normal to Path
+BEG_ITEM 13828096 (1 OPTT 0) = 0 0 ! Inferred Vector
+BEG_ITEM 14811136 (1 OPTM 0) = 0  ! Inferred Vector
+BEG_ITEM 14811138 (1 TOOL 0) = 0  ! Inferred Vector
+BEG_ITEM 15728640 (1 OPTM 0) = 0  ! Automatic
+BEG_ITEM 15925248 (1 BOOL 0) = 0  ! Select Horizontal Reference
+BEG_ITEM 16515072 (1 BOOL 0) = 0  ! Face
+BEG_ITEM 17039360 (1 BOOL 0) = 0  ! Show Previous State
+BEG_ITEM 17563648 (1 BOOL 0) = 1  ! Show All Datum Axes
+BEG_ITEM 18874370 (1 BOOL 0) = 1  ! Preview
+ASK_ITEM 1900544 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 1900544 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 1900544 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 1900544 (1 OPTT 0) = 1 0 ! Inferred
+ASK_ITEM 1900544 (1 OPTT 0) = 1 0 ! Inferred
+ASK_ITEM 1900544 (1 OPTT 0) = 1 1 ! Inferred
+FOCUS CHANGE IN 1
+FOCUS CHANGE IN 1
+CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+CPOS -6.95787485331649,6.46154627076329,0
+ASK_ITEM 1900544 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 0 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 0 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 0 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 0 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+OK 0 0 ! OK Callback  
+ASK_ITEM 1900544 (1 OPTT 0) = 11 1 ! Plane, X-axis, Point
+ASK_ITEM 1900544 (1 OPTT 0) = 11 0 ! Plane, X-axis, Point
+END_ITEM 262144 (1 OPTM 0) = 0  ! On Plane
+END_ITEM 262146 (1 TOOL 0) = 0  ! On Plane
+END_ITEM 1245184 (1 OPTM 0) = 0  ! Inferred
+END_ITEM 1441792 (1 OPTM 0) = 0  ! Horizontal
+END_ITEM 1638400 (1 OPTM 0) = 0  ! Specify Point
+END_ITEM 1900544 (1 OPTT 0) = 11 0 ! Plane, X-axis, Point
+END_ITEM 2490368 (1 OPTM 0) = 11  ! Plane, X-axis, Point
+END_ITEM 2490370 (1 TOOL 0) = 1  ! Plane, X-axis, Point
+END_ITEM 3080192 (1 OPTT 0) = 0 0 ! Inferred
+END_ITEM 3866624 (1 OPTM 0) = 0  ! Inferred
+END_ITEM 3866626 (0 TOOL 0) = 0  ! Inferred
+END_ITEM 4784128 (1 OPTM 0) = 0  ! Horizontal
+END_ITEM 5046272 (1 OPTT 0) = 0 0 ! Inferred Vector
+END_ITEM 6029312 (1 OPTM 0) = 0  ! Inferred Vector
+END_ITEM 6029314 (0 TOOL 0) = 0  ! Inferred Vector
+END_ITEM 6946816 (1 OPTM 0) = 0  ! Specify Point
+END_ITEM 7208960 (1 OPTT 0) = 0 0 ! Inferred Point
+END_ITEM 7798784 (1 OPTM 0) = 0  ! Inferred Point
+END_ITEM 7798786 (0 TOOL 0) = 0  ! Inferred Point
+END_ITEM 8781824 (1 BOOL 0) = 0  ! Curve
+END_ITEM 10027008 (1 OPTM 0) = 1  ! % Arc Length
+END_ITEM 10027010 (1 TOOL 0) = 1  ! % Arc Length
+END_ITEM 10616832 (1 OPTT 0) = 0 0 ! Inferred Point
+END_ITEM 11206656 (1 OPTM 0) = 0  ! Inferred Point
+END_ITEM 11206658 (1 TOOL 0) = 0  ! Inferred Point
+END_ITEM 11927554 (1 STRN 0) = "0"  ! % Arc Length
+END_ITEM 12976128 (1 OPTM 0) = 0  ! Normal to Path
+END_ITEM 12976130 (1 TOOL 0) = 0  ! Normal to Path
+END_ITEM 13828096 (1 OPTT 0) = 0 0 ! Inferred Vector
+END_ITEM 14811136 (1 OPTM 0) = 0  ! Inferred Vector
+END_ITEM 14811138 (1 TOOL 0) = 0  ! Inferred Vector
+END_ITEM 15728640 (1 OPTM 0) = 0  ! Automatic
+END_ITEM 15925248 (1 BOOL 0) = 0  ! Select Horizontal Reference
+END_ITEM 16515072 (1 BOOL 0) = 0  ! Face
+END_ITEM 17039360 (1 BOOL 0) = 0  ! Show Previous State
+END_ITEM 17563648 (1 BOOL 0) = 1  ! Show All Datum Axes
+END_ITEM 18874370 (1 BOOL 0) = 1  ! Preview
+DIALOG_END -2, 0 ! Create Sketch: OK
+FOCUS CHANGE IN 1
+MENU, 1, UG_SKETCH_RECTANGLE UG_GATEWAY_MAIN_MENUBAR <rbn_modeling_home.rtb->rbn_direct_sketch.grb->NX_RBN_DIRECT_SKETCH_SKETCH_CURVES_GALLERY->rbn_sketch_curves.gly> ## ! 
+DIALOG_BEGIN "Rectangle" 0 ! DA2
+  BEG_ITEM  1 (1 BOOL 0) = 0  ! Constraint Lock
+ DIALOG_BEGIN "Persistent Dialog" 116000 ! Persistent
+  BEG_ITEM  1 (1 BOOL 116000) = 1  ! By 2 Points
+  BEG_ITEM  2 (1 BOOL 116000) = 0  ! By 3 Points
+  BEG_ITEM  3 (1 BOOL 116000) = 0  ! From Center
+  BEG_ITEM  6 (1 BOOL 116000) = 1  ! Coordinate Mode
+  BEG_ITEM  7 (1 BOOL 116000) = 0  ! Parameter Mode
+ DIALOG_PERSISTENT_END 116000
+  CURSOR_EVENT 1001 106,0,221,0 ! motion_pb, mb0/0+0, , nn
+  CPOS -33.8701117856846,59.7777762392959,0
+ DIALOG_BEGIN "Persistent Dialog" 116001 ! Persistent
+  BEG_ITEM  0 (1 STRN 116001) = "-159"  ! XC
+  BEG_ITEM  1 (1 STRN 116001) = "65"  ! YC
+  BEG_ITEM  2 (1 STRN 116001) = "0"  ! Width
+  BEG_ITEM  3 (1 STRN 116001) = "0"  ! Height
+  BEG_ITEM  4 (1 STRN 116001) = "0"  ! Angle
+  BEG_ITEM  5 (1 STRN 116001) = "0"  ! Relative Angle
+ DIALOG_PERSISTENT_END 116001
+  EVENT VALUE_CHANGED -40 116000, 3, 0, 0, 0! From Center
+  ASK_ITEM  3 (1 BOOL 116000) = 1  ! From Center
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 1.54495246741716,0.356527492480879,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 1.30726747242991,0.356527492480879,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 1.06958247744262,0.356527492480879,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 0.831897482455363,0.356527492480879,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 0.594212487468111,0.356527492480879,0
+FOCUS CHANGE IN 1
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 0.594212487468111,0.356527492480879,0
+  CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+  CPOS 0.594212487468111,0.356527492480879,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 101.372650362066,-2.25800745237898,0
+  CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+  CPOS 101.372650362066,-2.25800745237898,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 82.8332207530601,58.8270362593469,0
+  CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+  CPOS 82.8332207530601,58.8270362593469,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 82.8332207530601,58.8270362593469,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 82.5955357580729,58.8270362593469,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 82.3578507630857,58.8270362593469,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 74.0388759385315,57.8762962793979,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 63.1053661691176,57.6386112844106,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 52.6472263896781,57.6386112844106,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 40.0499216553533,58.3516662693724,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 30.0671518658884,57.6386112844106,0
+  CURSOR_EVENT 1001 106,0,201,0 ! motion_pb, mb0/0+0, , nn
+  CPOS 14.6176271917165,56.6878713044616,0
+  POPUP UG_GATEWAY_VIEW_POPUP 1001, -42.1890866102387, 69.5228610337736, 0
+FOCUS CHANGE IN 1
+  MENU, 0, UG_VIEW_POPUP_NAV_OK UG_GATEWAY_VIEW_POPUP <UG_VIEW_POPUP_MENU> ## ! 
+  END_ITEM  1 (1 BOOL 0) = 0  ! Constraint Lock
+DIALOG_END -2, 0 ! Rectangle: OK
+CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+CPOS 110.166995176595,1.54495246741718,0
+CURSOR_EVENT 1001 11,1,107,0 ! dbclick, mb1/0+0, , nn
+CPOS 110.166995176595,1.54495246741718,0
+ASK_ITEM 3342336 (1 BOOL 0) = 1  ! Place Automatically
+ASK_ITEM 3342336 (1 BOOL 0) = 0  ! Place Automatically
+ASK_ITEM 4259840 (1 BOOL 0) = 1  !  
+ASK_ITEM 4587520 (1 BOOL 0) = 1  !  
+ASK_ITEM 4587520 (1 BOOL 0) = 0  !  
+ASK_ITEM 4915200 (1 BOOL 0) = 1  !  
+ASK_ITEM 4915200 (1 BOOL 0) = 0  !  
+ASK_ITEM 5242880 (1 BOOL 0) = 1  !  
+ASK_ITEM 5242880 (1 BOOL 0) = 0  !  
+ASK_ITEM 5570560 (1 BOOL 0) = 1  !  
+ASK_ITEM 5898240 (1 BOOL 0) = 1  !  
+ASK_ITEM 5898240 (1 BOOL 0) = 0  !  
+ASK_ITEM 6225920 (1 BOOL 0) = 1  !  
+ASK_ITEM 8257536 (1 OPTT 0) = 0 0 ! Dynamic
+ASK_ITEM 8257536 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 8847360 (1 OPTM 0) = 0  ! Dynamic
+ASK_ITEM 8847360 (1 OPTM 0) = 1  ! Inferred
+ASK_ITEM 8847362 (1 TOOL 0) = 1  ! Inferred
+ASK_ITEM 8257536 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 8257536 (1 OPTT 0) = 1 0 ! Inferred
+ASK_ITEM 7733248 (1 OPTM 0) = 0  ! XC-YC Plane
+ASK_ITEM 7733248 (1 OPTM 0) = 4  ! Last User Defined
+ASK_ITEM 7733250 (1 TOOL 0) = 4  ! Last User Defined
+ASK_ITEM 11862016 (1 BOOL 0) = 1  ! Show All Views in Drawing
+ASK_ITEM 11862016 (1 BOOL 0) = 0  ! Show All Views in Drawing
+ASK_ITEM 12058624 (1 BOOL 0) = 1  ! Show All Views in Booklet
+ASK_ITEM 12058624 (1 BOOL 0) = 0  ! Show All Views in Booklet
+ASK_ITEM 7733248 (1 OPTM 0) = 4  ! Last User Defined
+ASK_ITEM 7733248 (1 OPTM 0) = 0  ! XC-YC Plane
+ASK_ITEM 7733250 (1 TOOL 0) = 0  ! XC-YC Plane
+ASK_ITEM 15400960 (1 BOOL 0) = 1  ! Use Measurement Direction
+ASK_ITEM 15400960 (1 BOOL 0) = 0  ! Use Measurement Direction
+ASK_ITEM 15663104 (1 OPTT 0) = 0 0 ! Inferred Vector
+ASK_ITEM 15663104 (1 OPTT 0) = 0 1 ! Inferred Vector
+ASK_ITEM 15663104 (1 OPTT 0) = 0 1 ! Inferred Vector
+ASK_ITEM 15663104 (1 OPTT 0) = 0 0 ! Inferred Vector
+ASK_ITEM 17170432 (1 BOOL 0) = 1  ! Create Secondary Dimension for Depth
+ASK_ITEM 17170432 (1 BOOL 0) = 0  ! Create Secondary Dimension for Depth
+ASK_ITEM 17694720 (1 BOOL 0) = 1  !  
+ASK_ITEM 17694720 (1 BOOL 0) = 0  !  
+ASK_ITEM 18677760 (1 BOOL 0) = 1  ! Reference
+ASK_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+ASK_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+ASK_ITEM 18874369 (1 STRN 0) = ""  ! 
+ASK_ITEM 18874369 (1 STRN 0) = "p0"  ! 
+ASK_ITEM 21495808 (1 BOOL 0) = 1  ! Enable Dimension Scene Dialogs
+ASK_ITEM 21495808 (1 BOOL 0) = 0  ! Enable Dimension Scene Dialogs
+ASK_ITEM 1048576 (1 BOOL 0) = 0  ! 
+ASK_ITEM 1638400 (1 BOOL 0) = 0  ! 
+DIALOG_BEGIN "Persistent Dialog" 129004 ! Persistent
+BEG_ITEM 131073 (1 STRN 129004) = "p0"  !  
+BEG_ITEM 655362 (1 STRN 129004) = "117.65407251869"  ! =
+DIALOG_PERSISTENT_END 129004
+DIALOG_BEGIN "Linear Dimension" 0 ! DA2
+BEG_ITEM 524288 (1 OPTM 0) = 0  ! General
+BEG_ITEM 524290 (1 TOOL 0) = 0  ! General
+BEG_ITEM 1048576 (1 BOOL 0) = 0  ! 
+BEG_ITEM 1638400 (1 BOOL 0) = 0  ! 
+BEG_ITEM 2686976 (1 BOOL 0) = 0  ! Specify Location
+BEG_ITEM 3342336 (1 BOOL 0) = 0  ! Place Automatically
+BEG_ITEM 3735552 (1 OPTM 0) = 0  ! Associative
+BEG_ITEM 3735554 (1 TOOL 0) = 0  ! Associative
+BEG_ITEM 4259840 (1 BOOL 0) = 1  !  
+BEG_ITEM 4587520 (1 BOOL 0) = 0  !  
+BEG_ITEM 4915200 (1 BOOL 0) = 0  !  
+BEG_ITEM 5242880 (0 BOOL 0) = 0  !  
+BEG_ITEM 5570560 (1 BOOL 0) = 1  !  
+BEG_ITEM 5898240 (1 BOOL 0) = 0  !  
+BEG_ITEM 6225920 (1 BOOL 0) = 1  !  
+BEG_ITEM 6553600 (1 OPTM 0) = 4  ! Middle Center
+BEG_ITEM 6553602 (1 TOOL 0) = 3  ! Middle Center
+BEG_ITEM 7733248 (1 OPTM 0) = 0  ! XC-YC Plane
+BEG_ITEM 7733250 (1 TOOL 0) = 0  ! XC-YC Plane
+BEG_ITEM 8257536 (1 OPTT 0) = 1 0 ! Inferred
+BEG_ITEM 8847360 (1 OPTM 0) = 1  ! Inferred
+BEG_ITEM 8847362 (1 TOOL 0) = 1  ! Inferred
+BEG_ITEM 9830400 (1 BOOL 0) = 0  ! View
+BEG_ITEM 10551297 (1 LIST 0) = 0  ! List (Items selected)
+BEG_ITEM 11862016 (1 BOOL 0) = 0  ! Show All Views in Drawing
+BEG_ITEM 12058624 (1 BOOL 0) = 0  ! Show All Views in Booklet
+BEG_ITEM 13238272 (1 OPTM 0) = 0  ! None
+BEG_ITEM 13238274 (1 TOOL 0) = 0  ! None
+BEG_ITEM 13762560 (1 BOOL 0) = 0  ! 
+BEG_ITEM 14876672 (1 OPTM 0) = 3  ! Point-to-Point
+BEG_ITEM 14876674 (1 TOOL 0) = 2  ! Point-to-Point
+BEG_ITEM 15400960 (1 BOOL 0) = 0  ! Use Measurement Direction
+BEG_ITEM 15663104 (1 OPTT 0) = 0 0 ! Inferred Vector
+BEG_ITEM 16646144 (1 OPTM 0) = 0  ! Inferred Vector
+BEG_ITEM 16646146 (1 TOOL 0) = 0  ! Inferred Vector
+BEG_ITEM 17170432 (1 BOOL 0) = 0  ! Create Secondary Dimension for Depth
+BEG_ITEM 17694720 (1 BOOL 0) = 0  !  
+BEG_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+BEG_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+BEG_ITEM 18874369 (1 STRN 0) = "p0"  ! 
+BEG_ITEM 19398658 (1 OPTM 0) = 1  ! mm
+BEG_ITEM 19398659 (1 STRN 0) = "117.65407251869"  ! =
+BEG_ITEM 19857408 (1 RADI 0) = 0  ! Remove Expression, Measure Geometry
+BEG_ITEM 20905984 (1 BOOL 0) = 0  ! 
+BEG_ITEM 21495808 (1 BOOL 0) = 0  ! Enable Dimension Scene Dialogs
+BEG_ITEM 22085634 (1 BOOL 0) = 1  ! Preview
+EVENT FOCUS_IN 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "117.65407251869"  ! =
+ASK_ITEM 2686976 (1 BOOL 0) = 0  ! Specify Location
+ASK_ITEM 2686976 (1 BOOL 0) = 1  ! Specify Location
+EVENT VALUE_CHANGED -40 129004, 655362, 0, 0, 0! =
+ASK_ITEM 655362 (1 STRN 129004) = "117.65407251869"  ! =
+EVENT FOCUS_OUT 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "117.65407251869"  ! =
+FOCUS CHANGE IN 1
+FOCUS CHANGE IN 1
+CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+CPOS 110.166995176595,1.54495246741718,0
+ASK_ITEM 18481152 (1 OPTM 0) = 0  ! Inferred
+ASK_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+ASK_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+ASK_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+ASK_ITEM 18874369 (1 STRN 0) = "p0"  ! 
+ASK_ITEM 19857408 (1 RADI 0) = 0  ! Remove Expression, Measure Geometry
+ASK_ITEM 19857408 (1 RADI 0) = 0  ! Remove Expression, Measure Geometry
+EVENT FOCUS_OUT 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "117.65407251869"  ! =
+FOCUS CHANGE IN 1
+FOCUS CHANGE IN 1
+CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+CPOS 110.166995176595,1.54495246741718,0
+ASK_ITEM 18481152 (1 OPTM 0) = 0  ! Inferred
+ASK_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+ASK_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+ASK_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+ASK_ITEM 18874369 (1 STRN 0) = "p0"  ! 
+ASK_ITEM 19857408 (1 RADI 0) = 0  ! Remove Expression, Measure Geometry
+ASK_ITEM 19857408 (1 RADI 0) = 0  ! Remove Expression, Measure Geometry
+MODIFY_VERIFY_EVENT 0 0 19398659 1 STRN 0 15 insert =  proposed = 1 current = 117.65407251869  ! =
+EVENT VALUE_CHANGED 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "1"  ! =
+ASK_ITEM 655362 (1 STRN 129004) = "1"  ! =
+MODIFY_VERIFY_EVENT 0 0 19398659 1 STRN 1 1 insert = 1 proposed = 11 current = 1  ! =
+EVENT VALUE_CHANGED 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "11"  ! =
+ASK_ITEM 655362 (1 STRN 129004) = "11"  ! =
+MODIFY_VERIFY_EVENT 0 0 19398659 1 STRN 2 2 insert = 0 proposed = 110 current = 11  ! =
+EVENT VALUE_CHANGED 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "110"  ! =
+ASK_ITEM 655362 (1 STRN 129004) = "110"  ! =
+EVENT ACTIVATE 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "110"  ! =
+ASK_ITEM 19857408 (1 RADI 0) = 0  ! Remove Expression, Measure Geometry
+ASK_ITEM 19857408 (1 RADI 0) = 1  ! Keep Expression, Adjust Geometry
+ASK_ITEM 1048576 (1 BOOL 0) = 0  ! 
+ASK_ITEM 1638400 (1 BOOL 0) = 0  ! 
+ASK_ITEM 18481152 (1 OPTM 0) = 0  ! Inferred
+ASK_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+ASK_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+ASK_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+ASK_ITEM 18874369 (1 STRN 0) = "p0"  ! 
+MODIFY_VERIFY_EVENT 0 0 19398659 1 STRN 3 3 insert =  proposed = 110 current = 110  ! =
+ASK_ITEM 19857408 (1 RADI 0) = 1  ! Keep Expression, Adjust Geometry
+ASK_ITEM 19857408 (1 RADI 0) = 1  ! Keep Expression, Adjust Geometry
+EVENT FOCUS_OUT 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "110"  ! =
+BACK 0 0 ! Back Callback
+ASK_ITEM 2686976 (1 BOOL 0) = 1  ! Specify Location
+ASK_ITEM 2686976 (1 BOOL 0) = 0  ! Specify Location
+DIALOG_END -4, 0 ! Linear Dimension: BACK
+FOCUS CHANGE IN 1
+CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+CPOS 7.7247623370859,-63.8184211540794,0
+CURSOR_EVENT 1001 11,1,107,0 ! dbclick, mb1/0+0, , nn
+CPOS 7.7247623370859,-63.8184211540794,0
+ASK_ITEM 3342336 (1 BOOL 0) = 1  ! Place Automatically
+ASK_ITEM 3342336 (1 BOOL 0) = 0  ! Place Automatically
+ASK_ITEM 4259840 (1 BOOL 0) = 1  !  
+ASK_ITEM 4587520 (1 BOOL 0) = 1  !  
+ASK_ITEM 4587520 (1 BOOL 0) = 0  !  
+ASK_ITEM 4915200 (1 BOOL 0) = 1  !  
+ASK_ITEM 4915200 (1 BOOL 0) = 0  !  
+ASK_ITEM 5242880 (1 BOOL 0) = 1  !  
+ASK_ITEM 5242880 (1 BOOL 0) = 0  !  
+ASK_ITEM 5570560 (1 BOOL 0) = 1  !  
+ASK_ITEM 5898240 (1 BOOL 0) = 1  !  
+ASK_ITEM 5898240 (1 BOOL 0) = 0  !  
+ASK_ITEM 6225920 (1 BOOL 0) = 1  !  
+ASK_ITEM 8257536 (1 OPTT 0) = 0 0 ! Dynamic
+ASK_ITEM 8257536 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 8847360 (1 OPTM 0) = 0  ! Dynamic
+ASK_ITEM 8847360 (1 OPTM 0) = 1  ! Inferred
+ASK_ITEM 8847362 (1 TOOL 0) = 1  ! Inferred
+ASK_ITEM 8257536 (1 OPTT 0) = 1 1 ! Inferred
+ASK_ITEM 8257536 (1 OPTT 0) = 1 0 ! Inferred
+ASK_ITEM 7733248 (1 OPTM 0) = 0  ! XC-YC Plane
+ASK_ITEM 7733248 (1 OPTM 0) = 4  ! Last User Defined
+ASK_ITEM 7733250 (1 TOOL 0) = 4  ! Last User Defined
+ASK_ITEM 11862016 (1 BOOL 0) = 1  ! Show All Views in Drawing
+ASK_ITEM 11862016 (1 BOOL 0) = 0  ! Show All Views in Drawing
+ASK_ITEM 12058624 (1 BOOL 0) = 1  ! Show All Views in Booklet
+ASK_ITEM 12058624 (1 BOOL 0) = 0  ! Show All Views in Booklet
+ASK_ITEM 7733248 (1 OPTM 0) = 4  ! Last User Defined
+ASK_ITEM 7733248 (1 OPTM 0) = 0  ! XC-YC Plane
+ASK_ITEM 7733250 (1 TOOL 0) = 0  ! XC-YC Plane
+ASK_ITEM 15400960 (1 BOOL 0) = 1  ! Use Measurement Direction
+ASK_ITEM 15400960 (1 BOOL 0) = 0  ! Use Measurement Direction
+ASK_ITEM 15663104 (1 OPTT 0) = 0 0 ! Inferred Vector
+ASK_ITEM 15663104 (1 OPTT 0) = 0 1 ! Inferred Vector
+ASK_ITEM 15663104 (1 OPTT 0) = 0 1 ! Inferred Vector
+ASK_ITEM 15663104 (1 OPTT 0) = 0 0 ! Inferred Vector
+ASK_ITEM 17170432 (1 BOOL 0) = 1  ! Create Secondary Dimension for Depth
+ASK_ITEM 17170432 (1 BOOL 0) = 0  ! Create Secondary Dimension for Depth
+ASK_ITEM 17694720 (1 BOOL 0) = 1  !  
+ASK_ITEM 17694720 (1 BOOL 0) = 0  !  
+ASK_ITEM 18677760 (1 BOOL 0) = 1  ! Reference
+ASK_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+ASK_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+ASK_ITEM 18874369 (1 STRN 0) = ""  ! 
+ASK_ITEM 18874369 (1 STRN 0) = "p1"  ! 
+ASK_ITEM 21495808 (1 BOOL 0) = 1  ! Enable Dimension Scene Dialogs
+ASK_ITEM 21495808 (1 BOOL 0) = 0  ! Enable Dimension Scene Dialogs
+ASK_ITEM 1048576 (1 BOOL 0) = 0  ! 
+ASK_ITEM 1638400 (1 BOOL 0) = 0  ! 
+DIALOG_BEGIN "Persistent Dialog" 129004 ! Persistent
+BEG_ITEM 131073 (1 STRN 129004) = "p1"  !  
+BEG_ITEM 655362 (1 STRN 129004) = "188.85874092008"  ! =
+DIALOG_PERSISTENT_END 129004
+DIALOG_BEGIN "Linear Dimension" 0 ! DA2
+BEG_ITEM 524288 (1 OPTM 0) = 0  ! General
+BEG_ITEM 524290 (1 TOOL 0) = 0  ! General
+BEG_ITEM 1048576 (1 BOOL 0) = 0  ! 
+BEG_ITEM 1638400 (1 BOOL 0) = 0  ! 
+BEG_ITEM 2686976 (1 BOOL 0) = 0  ! Specify Location
+BEG_ITEM 3342336 (1 BOOL 0) = 0  ! Place Automatically
+BEG_ITEM 3735552 (1 OPTM 0) = 0  ! Associative
+BEG_ITEM 3735554 (1 TOOL 0) = 0  ! Associative
+BEG_ITEM 4259840 (1 BOOL 0) = 1  !  
+BEG_ITEM 4587520 (1 BOOL 0) = 0  !  
+BEG_ITEM 4915200 (1 BOOL 0) = 0  !  
+BEG_ITEM 5242880 (0 BOOL 0) = 0  !  
+BEG_ITEM 5570560 (1 BOOL 0) = 1  !  
+BEG_ITEM 5898240 (1 BOOL 0) = 0  !  
+BEG_ITEM 6225920 (1 BOOL 0) = 1  !  
+BEG_ITEM 6553600 (1 OPTM 0) = 4  ! Middle Center
+BEG_ITEM 6553602 (1 TOOL 0) = 3  ! Middle Center
+BEG_ITEM 7733248 (1 OPTM 0) = 0  ! XC-YC Plane
+BEG_ITEM 7733250 (1 TOOL 0) = 0  ! XC-YC Plane
+BEG_ITEM 8257536 (1 OPTT 0) = 1 0 ! Inferred
+BEG_ITEM 8847360 (1 OPTM 0) = 1  ! Inferred
+BEG_ITEM 8847362 (1 TOOL 0) = 1  ! Inferred
+BEG_ITEM 9830400 (1 BOOL 0) = 0  ! View
+BEG_ITEM 10551297 (1 LIST 0) = 0  ! List (Items selected)
+BEG_ITEM 11862016 (1 BOOL 0) = 0  ! Show All Views in Drawing
+BEG_ITEM 12058624 (1 BOOL 0) = 0  ! Show All Views in Booklet
+BEG_ITEM 13238272 (1 OPTM 0) = 0  ! None
+BEG_ITEM 13238274 (1 TOOL 0) = 0  ! None
+BEG_ITEM 13762560 (1 BOOL 0) = 0  ! 
+BEG_ITEM 14876672 (1 OPTM 0) = 3  ! Point-to-Point
+BEG_ITEM 14876674 (1 TOOL 0) = 2  ! Point-to-Point
+BEG_ITEM 15400960 (1 BOOL 0) = 0  ! Use Measurement Direction
+BEG_ITEM 15663104 (1 OPTT 0) = 0 0 ! Inferred Vector
+BEG_ITEM 16646144 (1 OPTM 0) = 0  ! Inferred Vector
+BEG_ITEM 16646146 (1 TOOL 0) = 0  ! Inferred Vector
+BEG_ITEM 17170432 (1 BOOL 0) = 0  ! Create Secondary Dimension for Depth
+BEG_ITEM 17694720 (1 BOOL 0) = 0  !  
+BEG_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+BEG_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+BEG_ITEM 18874369 (1 STRN 0) = "p1"  ! 
+BEG_ITEM 19398658 (1 OPTM 0) = 1  ! mm
+BEG_ITEM 19398659 (1 STRN 0) = "188.85874092008"  ! =
+BEG_ITEM 19857408 (1 RADI 0) = 0  ! Remove Expression, Measure Geometry
+BEG_ITEM 20905984 (1 BOOL 0) = 0  ! 
+BEG_ITEM 21495808 (1 BOOL 0) = 0  ! Enable Dimension Scene Dialogs
+BEG_ITEM 22085634 (1 BOOL 0) = 1  ! Preview
+EVENT FOCUS_IN 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "188.85874092008"  ! =
+ASK_ITEM 2686976 (1 BOOL 0) = 0  ! Specify Location
+ASK_ITEM 2686976 (1 BOOL 0) = 1  ! Specify Location
+EVENT VALUE_CHANGED -40 129004, 655362, 0, 0, 0! =
+ASK_ITEM 655362 (1 STRN 129004) = "188.85874092008"  ! =
+MODIFY_VERIFY_EVENT 0 0 19398659 1 STRN 0 15 insert =  proposed = 1 current = 188.85874092008  ! =
+EVENT VALUE_CHANGED 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "1"  ! =
+ASK_ITEM 655362 (1 STRN 129004) = "1"  ! =
+MODIFY_VERIFY_EVENT 0 0 19398659 1 STRN 1 1 insert = 5 proposed = 15 current = 1  ! =
+EVENT VALUE_CHANGED 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "15"  ! =
+ASK_ITEM 655362 (1 STRN 129004) = "15"  ! =
+MODIFY_VERIFY_EVENT 0 0 19398659 1 STRN 2 2 insert = 0 proposed = 150 current = 15  ! =
+EVENT VALUE_CHANGED 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "150"  ! =
+ASK_ITEM 655362 (1 STRN 129004) = "150"  ! =
+EVENT ACTIVATE 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "150"  ! =
+ASK_ITEM 19857408 (1 RADI 0) = 0  ! Remove Expression, Measure Geometry
+ASK_ITEM 19857408 (1 RADI 0) = 1  ! Keep Expression, Adjust Geometry
+ASK_ITEM 1048576 (1 BOOL 0) = 0  ! 
+ASK_ITEM 1638400 (1 BOOL 0) = 0  ! 
+ASK_ITEM 18481152 (1 OPTM 0) = 0  ! Inferred
+ASK_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+ASK_ITEM 18481152 (1 OPTM 0) = 1  ! Driving
+ASK_ITEM 18677760 (1 BOOL 0) = 0  ! Reference
+ASK_ITEM 18874369 (1 STRN 0) = "p1"  ! 
+MODIFY_VERIFY_EVENT 0 0 19398659 1 STRN 3 3 insert =  proposed = 150 current = 150  ! =
+ASK_ITEM 19857408 (1 RADI 0) = 1  ! Keep Expression, Adjust Geometry
+ASK_ITEM 19857408 (1 RADI 0) = 1  ! Keep Expression, Adjust Geometry
+EVENT FOCUS_OUT 0 0, 19398659, 0, 0, 0! =
+ASK_ITEM 19398659 (1 STRN 0) = "150"  ! =
+BACK 0 0 ! Back Callback
+ASK_ITEM 2686976 (1 BOOL 0) = 1  ! Specify Location
+ASK_ITEM 2686976 (1 BOOL 0) = 0  ! Specify Location
+DIALOG_END -4, 0 ! Linear Dimension: BACK
+FOCUS CHANGE IN 1
+MENU, 0, UG_DIRECT_SKETCH_FINISH UG_GATEWAY_MAIN_MENUBAR <rbn_modeling_home.rtb->rbn_direct_sketch.grb> ## ! 
+MENU, 0, UG_MODELING_EXTRUDED_FEATURE UG_GATEWAY_MAIN_MENUBAR <rbn_modeling_home.rtb->rbn_feature.grb> ## ! 
+ASK_ITEM 1638400 (1 OPTT 0) = 4 0 ! Face/Plane Normal
+ASK_ITEM 1638400 (1 OPTT 0) = 4 1 ! Face/Plane Normal
+ASK_ITEM 1638400 (1 OPTT 0) = 4 1 ! Face/Plane Normal
+ASK_ITEM 1638400 (1 OPTT 0) = 4 0 ! Face/Plane Normal
+ASK_ITEM 8519680 (1 BOOL 0) = 1  ! Open Profile Smart Volume
+ASK_ITEM 8519680 (1 BOOL 0) = 0  ! Open Profile Smart Volume
+DIALOG_BEGIN "Extrude" 0 ! DA2
+BEG_ITEM 262144 (1 BOOL 0) = 0  ! Curve
+BEG_ITEM 1638400 (1 OPTT 0) = 4 0 ! Face/Plane Normal
+BEG_ITEM 2621440 (1 OPTM 0) = 4  ! Face/Plane Normal
+BEG_ITEM 2621442 (1 TOOL 0) = 4  ! Face/Plane Normal
+BEG_ITEM 3604480 (1 OPTM 0) = 0  ! Value
+BEG_ITEM 3604482 (1 TOOL 0) = 0  ! Value
+BEG_ITEM 4390914 (1 OPTM 0) = 1  ! mm
+BEG_ITEM 4390915 (1 STRN 0) = "0"  !  
+BEG_ITEM 5308416 (1 BOOL 0) = 0  ! Face, Body, Datum Plane
+BEG_ITEM 6029312 (1 OPTM 0) = 0  ! Value
+BEG_ITEM 6029314 (1 TOOL 0) = 0  ! Value
+BEG_ITEM 6815746 (1 OPTM 0) = 1  ! mm
+BEG_ITEM 6815747 (1 STRN 0) = "25"  !  
+BEG_ITEM 7733248 (1 BOOL 0) = 0  ! Face, Body, Datum Plane
+BEG_ITEM 8519680 (1 BOOL 0) = 0  ! Open Profile Smart Volume
+BEG_ITEM 8716288 (1 RADI 0) = 0  ! FCI
+BEG_ITEM 9371648 (1 OPTM 0) = 5  ! Inferred
+BEG_ITEM 9371650 (1 TOOL 0) = 3  ! Inferred
+BEG_ITEM 9895936 (1 BOOL 0) = 0  ! Body
+BEG_ITEM 10944512 (1 OPTM 0) = 0  ! None
+BEG_ITEM 11141120 (1 OPTM 0) = 0  ! Single
+BEG_ITEM 11665410 (1 OPTM 0) = 1  ! deg
+BEG_ITEM 11665411 (0 STRN 0) = "2"  ! Angle
+BEG_ITEM 14417922 (1 OPTM 0) = 1  ! deg
+BEG_ITEM 14417923 (0 STRN 0) = "2"  ! Angle
+BEG_ITEM 15138818 (1 OPTM 0) = 1  ! deg
+BEG_ITEM 15138819 (0 STRN 0) = "2"  ! Back Angle
+BEG_ITEM 16056320 (1 OPTM 0) = 0  ! ##534None
+BEG_ITEM 16515074 (1 OPTM 0) = 1  ! mm
+BEG_ITEM 16515075 (1 STRN 0) = "0"  ! Start
+BEG_ITEM 17498114 (1 OPTM 0) = 1  ! mm
+BEG_ITEM 17498115 (1 STRN 0) = "5"  ! End
+BEG_ITEM 18677760 (1 OPTM 0) = 0  ! Solid
+BEG_ITEM 18939904 (1 REAL 0) = 0.0100000000000000  ! Tolerance
+BEG_ITEM 19529730 (1 BOOL 0) = 1  ! Preview
+EVENT FOCUS_IN 0 0, 6815747, 0, 0, 0!  
+ASK_ITEM 6815747 (1 STRN 0) = "25"  !  
+ASK_ITEM 262144 (1 BOOL 0) = 0  ! Curve
+ASK_ITEM 262144 (1 BOOL 0) = 1  ! Curve
+EVENT FOCUS_OUT 0 0, 6815747, 0, 0, 0!  
+ASK_ITEM 6815747 (1 STRN 0) = "25"  !  
+FOCUS CHANGE IN 1
+FOCUS CHANGE IN 1
+CURSOR_EVENT 1001 3,1,100,0 ! single_pt, mb1/0+0, , nn
+CPOS -41.0006616353024,55.7371313245125,0
+ASK_ITEM 1638400 (1 OPTT 0) = 4 0 ! Face/Plane Normal
+ASK_ITEM 1638400 (1 OPTT 0) = 4 1 ! Face/Plane Normal
+ASK_ITEM 1638400 (1 OPTT 0) = 4 1 ! Face/Plane Normal
+ASK_ITEM 1638400 (1 OPTT 0) = 4 0 ! Face/Plane Normal
+DIALOG_BEGIN "Persistent Dialog" 129011 ! Persistent
+BEG_ITEM 196608 (1 OPTM 129011) = 0  ! Value
+BEG_ITEM 655362 (1 STRN 129011) = "25"  ! End
+BEG_ITEM 1507328 (1 BOOL 129011) = 0  ! Face, Body, Datum Plane
+DIALOG_PERSISTENT_END 129011
+CURSOR_EVENT 1001 7,8194,200,3 ! begin_drag, mb2/2+0, , dt
+CPOS 10.8146672719203,26.2641919460923,0
+CPOS 5.34791238721333,24.6003969811814,0
+CUSTOM HEADER 2 "Mouse Rotate" 1
+CUSTOM 2 BEGIN ! 
+CUSTOM 2 POS 0.038583 0.134725 ! 
+CUSTOM 2 POS 0.019608 0.129665 ! 
+CUSTOM 2 POS 0.018343 0.128400 ! 
+CUSTOM 2 POS -0.000633 0.122075 ! 
+CUSTOM 2 POS -0.027198 0.105629 ! 
+CUSTOM 2 POS -0.029728 0.104364 ! 
+CUSTOM 2 POS -0.034788 0.096774 ! 
+CUSTOM 2 POS -0.038583 0.087919 ! 
+CUSTOM 2 POS -0.042378 0.070209 ! 
+CUSTOM 2 POS -0.043643 0.066414 ! 
+CUSTOM 2 POS -0.043643 0.065149 ! 
+CURSOR_EVENT 1001 5,8194,101,3 ! two_pt, mb2/2+0, , dt
+CPOS 1.5762633384466,20.1197142735872,-3.28839679446568
+CPOS_WV 1001,-17.4385362605342,6.09629956933881,-3.28839679446568
+CUSTOM 2 POS -0.043643 0.065149 ! 
+CUSTOM 2 END ! 
+MODIFY_VERIFY_EVENT 0 0 6815747 1 STRN 0 2 insert = 5 proposed = 5 current = 25  !  
+EVENT VALUE_CHANGED 0 0, 6815747, 0, 0, 0!  
+ASK_ITEM 6815747 (1 STRN 0) = "5"  !  
+ASK_ITEM 655362 (1 STRN 129011) = "5"  ! End
+MODIFY_VERIFY_EVENT 0 0 6815747 1 STRN 1 1 insert = 0 proposed = 50 current = 5  !  
+EVENT VALUE_CHANGED 0 0, 6815747, 0, 0, 0!  
+ASK_ITEM 6815747 (1 STRN 0) = "50"  !  
+ASK_ITEM 655362 (1 STRN 129011) = "50"  ! End
+EVENT ACTIVATE 0 0, 6815747, 0, 0, 0!  
+ASK_ITEM 6815747 (1 STRN 0) = "50"  !  
+EVENT FOCUS_OUT 0 0, 6815747, 0, 0, 0!  
+ASK_ITEM 6815747 (1 STRN 0) = "50"  !  
+OK 0 0 ! OK Callback  
+ASK_ITEM 262144 (1 BOOL 0) = 1  ! Curve
+ASK_ITEM 262144 (1 BOOL 0) = 0  ! Curve
+END_ITEM 262144 (1 BOOL 0) = 0  ! Curve
+END_ITEM 1638400 (1 OPTT 0) = 4 0 ! Face/Plane Normal
+END_ITEM 2621440 (1 OPTM 0) = 4  ! Face/Plane Normal
+END_ITEM 2621442 (1 TOOL 0) = 4  ! Face/Plane Normal
+END_ITEM 3604480 (1 OPTM 0) = 0  ! Value
+END_ITEM 3604482 (1 TOOL 0) = 0  ! Value
+END_ITEM 4390914 (1 OPTM 0) = 1  ! mm
+END_ITEM 4390915 (1 STRN 0) = "0"  !  
+END_ITEM 5308416 (1 BOOL 0) = 0  ! Face, Body, Datum Plane
+END_ITEM 6029312 (1 OPTM 0) = 0  ! Value
+END_ITEM 6029314 (1 TOOL 0) = 0  ! Value
+END_ITEM 6815746 (1 OPTM 0) = 1  ! mm
+END_ITEM 6815747 (1 STRN 0) = "50"  !  
+END_ITEM 7733248 (1 BOOL 0) = 0  ! Face, Body, Datum Plane
+END_ITEM 8519680 (1 BOOL 0) = 0  ! Open Profile Smart Volume
+END_ITEM 8716288 (1 RADI 0) = 0  ! FCI
+END_ITEM 9371648 (1 OPTM 0) = 5  ! Inferred
+END_ITEM 9371650 (1 TOOL 0) = 3  ! Inferred
+END_ITEM 9895936 (1 BOOL 0) = 0  ! Body
+END_ITEM 10944512 (1 OPTM 0) = 0  ! None
+END_ITEM 11141120 (1 OPTM 0) = 0  ! Single
+END_ITEM 11665410 (1 OPTM 0) = 1  ! deg
+END_ITEM 11665411 (0 STRN 0) = "2"  ! Angle
+END_ITEM 14417922 (1 OPTM 0) = 1  ! deg
+END_ITEM 14417923 (0 STRN 0) = "2"  ! Angle
+END_ITEM 15138818 (1 OPTM 0) = 1  ! deg
+END_ITEM 15138819 (0 STRN 0) = "2"  ! Back Angle
+END_ITEM 16056320 (1 OPTM 0) = 0  ! ##534None
+END_ITEM 16515074 (1 OPTM 0) = 1  ! mm
+END_ITEM 16515075 (1 STRN 0) = "0"  ! Start
+END_ITEM 17498114 (1 OPTM 0) = 1  ! mm
+END_ITEM 17498115 (1 STRN 0) = "5"  ! End
+END_ITEM 18677760 (1 OPTM 0) = 0  ! Solid
+END_ITEM 18939904 (1 REAL 0) = 0.0100000000000000  ! Tolerance
+END_ITEM 19529730 (1 BOOL 0) = 1  ! Preview
+DIALOG_END -2, 0 ! Extrude: OK
+FOCUS CHANGE IN 1

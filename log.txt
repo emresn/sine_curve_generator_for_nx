@@ -1,0 +1,7 @@
+
+Cycle: 25
+Wavelength: 30
+Origin: 0
+Amplitude: 10
+Total Length: 750
+                
