@@ -13,4 +13,4 @@ This code generates a sinus curve journal script for NX 11 software.
  - Then press Run, Your curve will be created.
 
 ## Screenshot
-![screen](curve.png)
+![screen](screenshot.png)
